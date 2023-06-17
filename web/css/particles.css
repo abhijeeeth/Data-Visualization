@@ -1,0 +1,21 @@
+@keyframes ani {
+    10%{background-color: #25252f;}
+    25%{background-color:#191936 ;}
+    50%{background-color:#272843 ;}
+    75%{background-color:#1b2f45 ;}
+    100%{background-color: #25252f;}
+    
+}
+#tsparticles {
+
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #25252f;
+    animation-name: ani;
+    animation-duration: 4s;
+}
